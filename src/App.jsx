@@ -7,7 +7,7 @@ function App() {
   const [content, setContent] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const BASE_URL = "https://mern-backend-pfxv.onrender.com";
+  const BASE_URL = "https://mern-backend-p1rv.onrender.com";
 
   const fetchNotes = async () => {
     const res = await axios.get(`${BASE_URL}/notes`);
